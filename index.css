@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.square {
+  width: 5rem;
+  height: 5rem;
+  background-color: floralwhite;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 15rem;
+  width: 15rem;
+  margin: 0 5rem;
+}
+.status {
+  margin: 1rem 5rem;
+  font-size: 1.2rem;
+}
+.game {
+  display: flex;
+}
+.game .game-info {
+  margin: 1rem 0;
+  font-size: 1.7rem;
+}
